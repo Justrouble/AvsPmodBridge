@@ -3,6 +3,32 @@ Bridging non .NET application to IFME
 
 AvsPmod is AviSynth IDE with full featured including live preview
 
+# Install
+Place `AvsPmodBridge.dll` at `extension` folder
+
+Create `AvsPmod` folder
+
+Extract `AvsPmod.exe` and other stuff into `AvsPmod`
+
+Structure will be
+```
+|   AvsPmodBridge.dll
+\---AvsPmod
+    |   AvsPmod.exe
+	|   ...
+    +---help
+    |   +---images
+    |   |   \---logos
+    |   \---stylesheets
+    +---lib
+    +---macros
+    |   +---Example (Resize)
+    |   \---Examples
+    +---src
+    +---tools
+    \---translations
+```
+
 # API
 `public frmMain(string file, string lang)`
 
