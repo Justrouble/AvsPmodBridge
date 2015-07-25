@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvsPmodBridge", "AvsPmodBridge\AvsPmodBridge.csproj", "{89522060-A0E2-4244-99D4-AD1C82EA33EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89522060-A0E2-4244-99D4-AD1C82EA33EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89522060-A0E2-4244-99D4-AD1C82EA33EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89522060-A0E2-4244-99D4-AD1C82EA33EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89522060-A0E2-4244-99D4-AD1C82EA33EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
