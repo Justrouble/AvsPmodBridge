@@ -35,8 +35,10 @@
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(284, 262);
+			this.ControlBox = false;
 			this.Font = new System.Drawing.Font("Tahoma", 8F);
 			this.Name = "frmMain";
+			this.ShowInTaskbar = false;
 			this.Text = "AvsPmod Bridge";
 			this.Load += new System.EventHandler(this.frmMain_Load);
 			this.Shown += new System.EventHandler(this.frmMain_Shown);

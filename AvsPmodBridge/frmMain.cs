@@ -1,13 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Diagnostics;
-using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Text;
 using System.Windows.Forms;
 
 namespace AvsPmodBridge
@@ -24,15 +17,13 @@ namespace AvsPmodBridge
 
 		private void frmMain_Load(object sender, EventArgs e)
 		{
-			this.Opacity = 0;
-
-			// Process.Start(Path.Combine("extension", "AvsPmod", "AvsPmod.exe"), _file).WaitForExit(); // file did not open, why?
+			Opacity = 0;
 
 			var p = new Process();
-			p.StartInfo = new ProcessStartInfo("cmd", String.Format("/c START \"F\" \"{0}\" \"{1}\"", Path.Combine("extension", "AvsPmod", "AvsPmod.exe"), _file))
-			{
-				UseShellExecute = false,
-				WindowStyle = ProcessWindowStyle.Hidden
+			p.StartInfo = new ProcessStartInfo(Path.Combine("extension", "AvsPmod", "AvsPmod.exe"), $"\"{_file}\"")
+            {
+				WorkingDirectory = Path.Combine("extension", "AvsPmod"),
+                UseShellExecute = false,
 			};
 			p.Start();
 			p.WaitForExit();
@@ -40,7 +31,7 @@ namespace AvsPmodBridge
 
 		private void frmMain_Shown(object sender, EventArgs e)
 		{
-			this.Close();
+			Close();
 		}
 	}
 }

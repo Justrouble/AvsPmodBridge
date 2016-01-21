@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("AvsPmodBridge")]
 [assembly: AssemblyDescription("Notepad")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Aurora System K.K.")]
+[assembly: AssemblyCompany("Anime4000")]
 [assembly: AssemblyProduct("IFME Extension with bridge function")]
 [assembly: AssemblyCopyright("Nemu, GNU GPL v2")]
 [assembly: AssemblyTrademark("https://github.com/AvsPmod/AvsPmod/||")]
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("0.0.*")]
-[assembly: AssemblyFileVersion("0.0.1.0")]
+[assembly: AssemblyVersion("0.2")]
+[assembly: AssemblyFileVersion("0.2")]
